@@ -39,7 +39,7 @@
 
 ## Site
 
-  You can access the live project at **[Github-search]https://twyfordsparks.github.io/github/
+  You can access the live project at **[Github-search](https://twyfordsparks.github.io/github/
 )**
 
 ## Support and contact details
