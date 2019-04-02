@@ -1,15 +1,4 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 
-body {
-  background-image: url("/download.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-  display: inherit;
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 25px;
 
-}
