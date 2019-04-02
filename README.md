@@ -39,7 +39,7 @@
 
 ## Site
 
-  You can access the live project at **[Github-search](https://twyfordsparksnetlify.netlify.com
+  You can access the live project at **[Github-search]https://twyfordsparks.github.io/github/
 )**
 
 ## Support and contact details
