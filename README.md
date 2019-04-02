@@ -28,6 +28,14 @@
   4.  watchman
   5. Html
   6. custom css
+  ## Project's BDD
+
+
+  | BEHAVIOUR      |            INPUT     |       OUTPUT        |
+  |   :---         |            :---      |         :---        |
+  |Loads user profile| type user name and hit search     |Displays users repos and details       |
+  |                |                      |                     |
+  |                |                      |                     |  
 
 ## Site
 
