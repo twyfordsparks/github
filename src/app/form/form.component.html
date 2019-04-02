@@ -1,0 +1,6 @@
+<form (ngSubmit)='submitSearch(searchForm)' #searchForm='ngForm'>
+  <div class="form-group">
+    <input type="text" class="form-control" name="find" placeholder="Search" [(ngModel)]="searchRequest.find" #find='ngModel'  required>
+    <button type="submit" class="btn btn-success" id="btnn">Search</button>
+  </div>
+</form>

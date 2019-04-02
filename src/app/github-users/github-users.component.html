@@ -1,0 +1,63 @@
+<app-nav></app-nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-form (getName)='searchUser($event)'></app-form><hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{users.avatar_url}}" alt="Loading avatar">
+    </div>
+    <div class="col-md-8">
+      <div class="table1">
+        <h3><i><b>{{users.name}}</b></i></h3>
+        <table>
+          <tbody>
+            <tr>
+              <th scope='row'>Github User:</th>
+              <td><a href="{{users.html_url}}" target="_blank">{{users.login}}</a></td>
+            </tr>
+            <tr>
+              <th scope='row'>Number of Repos:</th>
+              <td>{{users.public_repos}}</td>
+            </tr>
+            <tr>
+              <th scope='row'>Followers:</th>
+              <td>{{users.followers}}</td>
+            </tr>
+            <tr>
+              <th scope='row'>Following:</th>
+              <td>{{users.following}}</td>
+            </tr>
+            <tr>
+              <th scope='row'>Date Joined:</th>
+              <td>{{users.created_at}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Repositories by <i><b>{{users.name}}</b></i></h4>
+      <div class="table2">
+        <table>
+          <tbody>
+            <tr *ngFor='let repository of gitUserRepo.newRepo'>
+              <td>
+                <a href="{{repository.html_url}}" target="_blank">{{repository.name}}</a><br>
+                <p>Details: {{repository.description}}</p><br>
+                <p>Date Joined: {{repository.created_at}}</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.nav{
+  width: 100;
+  background: #142323;
+}
+.nav ul {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin-left: 64px;
+}
+.nav ul li:hover{
+  background: #2A4D4D;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}

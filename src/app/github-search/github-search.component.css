@@ -1,0 +1,16 @@
+ body{
+  background-image: url("map.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+outline: none;
+}
+
+h1 {
+  font-weight: 500;
+}
+p {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
