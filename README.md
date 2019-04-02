@@ -26,6 +26,8 @@
   2.  TypeScript
   3.  nodejs
   4.  watchman
+  5. Html
+  6. custom css
 
 ## Site
 
